@@ -275,6 +275,7 @@ void mapOfObjects (int startKey, int numberItems)
   {
     std::cout << it->first << " " << it->second << std::endl;
   }
+  std::cout << " --------------------- " << std::endl;
 
   //<functional>
   std::map<int, ExampleClass, std::greater<int>> cTheMapDescending;
